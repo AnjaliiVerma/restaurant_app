@@ -9,6 +9,7 @@ import Home from './Home';
 import Categories from './Categories';
 
 
+
 const App=()=> {
  
   // Home
@@ -26,7 +27,7 @@ const App=()=> {
     .then(data=>setCtgryData(data.categories))
   }
   console.log(ctgryData, "ctgry")
- 
+  var a;
   return (
     <div className="App">
       <Router>

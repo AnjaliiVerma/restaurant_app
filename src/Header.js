@@ -40,9 +40,9 @@ const Header = (props) => {
           <SocialIcon url="https://facebook.com/jaketrent" className="h2b1" />
           <SocialIcon url="https://twitter.com/jaketrent" className="h2b2" />
         </div>
-        <div className="Head_2C">
+        {/* <div className="Head_2C">
           <input type="text" placeholder="Search..." />
-        </div>
+        </div> */}
       </div>
     </div>
   );
